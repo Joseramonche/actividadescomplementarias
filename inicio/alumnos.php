@@ -1,8 +1,6 @@
 <?php
 	require_once('../conexion/conexion.php');
 
-	
-	
 	$sql_carrera = 'SELECT * FROM carrera';
 
 	$statement = $pdo->prepare($sql_carrera);
@@ -109,7 +107,6 @@
 							</div>
         				</div>
         			<input class="btn waves-effect waves-light cyan" type="submit" value="Agregar" />
-        			
 	       	</form>
 	</div>
 	

@@ -11,9 +11,6 @@
 
 		$show_form = FALSE;
 		$show_form2 = false;
-		$show_form3 = true;	
-
-
 if($_POST) {
 
 	//TODO:UPDATE ARTICLE
@@ -44,10 +41,6 @@ if($_POST) {
 			
 ?>
 
-
-
-
-
 <?php
 
  	include('../extend/header.php');
@@ -69,7 +62,6 @@ if($_POST) {
        				</div>
        			</form>
 </div>
-
 
 <?php  
 	if ($show_form) {

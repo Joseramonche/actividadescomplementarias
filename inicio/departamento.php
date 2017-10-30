@@ -30,7 +30,7 @@ if ( $_POST ) {
  ?>
 
 <?php
-//Header--------------------------------> 
+
  	include('../extend/header.php');
 ?>
 

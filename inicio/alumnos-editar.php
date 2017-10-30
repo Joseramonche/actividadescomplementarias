@@ -2,13 +2,11 @@
 	require_once('../conexion/conexion.php');
 
 		
-	//muetra las carreras en el campo carrera de los formularios
 	$sql_carrera = 'SELECT * FROM carrera';
 
 	$statement = $pdo->prepare($sql_carrera);
 	$statement->execute();
 	$campo_carrera = $statement->fetchAll();
-
 	
   		$show_form = FALSE;
 
@@ -66,11 +64,8 @@
          			<input class="waves-effect waves-light btn cyan" type="submit" value="Buscar">
        			</div>
        		</form>
- 		
  	</div>
- 	
  </div>
-
  <?php 
 	if( $show_form ){
 ?>

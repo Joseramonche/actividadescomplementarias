@@ -64,9 +64,7 @@ require_once('../conexion/conexion.php');
 				$statement_update->execute(array($clave));
 				$result_details = $statement_update->fetchAll();
 				$rs_campo = $result_details[0];
-		}
-
-	
+		}	
 ?>
 <?php 
 	include('../extend/header.php');
